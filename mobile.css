@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#design{
+    display: grid;
+    grid-template-rows: 150px 50px 100px 50px;
+}
+
+.heading{
+    color: rgb(43, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    display: grid;
+    grid-row: 2;
+    justify-content: center;
+}
+
+.counting{
+    color: rgb(43, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 9vh;
+    display: grid;
+    grid-row: 3;
+    justify-content: center;
+}
+
+#increment{
+    width: 21vw;
+    height: 5vh;
+    background-color: rgb(43, 223, 223);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    display: grid;
+    grid-row: 4;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#reset{
+    width: 21vw;
+    height: 5vh;
+    background-color: rgb(43, 223, 223);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    display: grid;
+    grid-row: 5;
+    justify-content: center;
+    margin: 0 auto;
+}
