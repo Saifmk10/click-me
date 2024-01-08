@@ -2,7 +2,7 @@
 
 let counting = document.getElementById("counter");
 let count = 0;
-// console.log(counting);
+let resetData = 0;
 
 function increment(){
     count = count + 1;
@@ -13,8 +13,4 @@ function reset(){
     count = 0;
     counting.innerHTML = count;
 }
-
-// reset()
-
-// increment()
 
