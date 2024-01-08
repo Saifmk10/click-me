@@ -10,7 +10,7 @@ function increment(){
 }
 
 function reset(){
-    counting.innerText = 0;
+    counting.innerHTML = 0;
 }
 
 // reset()
