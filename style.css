@@ -9,7 +9,7 @@ body{
 
 #design{
     display: grid;
-    grid-template-rows: 150px 50px 100px 50px;
+    grid-template-rows: 140px 50px 85px 50px 70px 50px;
 }
 
 .heading{
@@ -56,4 +56,14 @@ body{
     grid-row: 5;
     justify-content: center;
     margin: 0 auto;
+}
+
+#savedData{
+    color: rgb(43, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+
+    display: grid;
+    justify-content: center;
+    grid-row: 6;
 }
